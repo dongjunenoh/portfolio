@@ -1,0 +1,31 @@
+*{margin:0; padding:0;}
+body{
+    font-family: '맑은 고딕';
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 1320px;
+    text-align: center;
+    background-color: #f0ded5;
+}
+ul{list-style:none; 
+position:fixed;
+bottom:50px;
+right:50px;
+text-align:center;}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.seiva_btn li a{
+    background: #4b5f56;
+}
+.waves_btn li a{
+    background: #f26c63;
+}
+a{text-decoration:none; color:#fff;}
+img{width:1320px;}
